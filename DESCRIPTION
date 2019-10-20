@@ -1,0 +1,23 @@
+Package: sparseMatrixUtils
+Type: Package
+Title: Small utility package for working with sparse matrices in R
+Description: A small package of utilities to work with sparse matrices in R. This is mostly
+    intended for personal use, so use at your own risk. 
+Version: 0.1.0
+Date: 2019-10-20
+Authors@R: c(person("Benjamin", "Johnson", role=c("aut", "cre"), email="ben.johnson@vai.org"))
+Author: Benjamin Johnson [aut, cre]
+Maintainer: Benjamin Johnson <ben.johnson@vai.org>
+URL: https://github.com/biobenkj/sparseMatrixUtils
+BugReports: https://github.com/biobenkj/sparseMatrixUtils/issues
+License: MIT + file LICENSE
+Depends:
+    R (>= 3.6.0)
+Imports:
+    Matrix
+    parallel
+Suggests:
+    covr,
+    testthat
+RoxygenNote: 6.0.0
+Roxygen: list(markdown = TRUE)
