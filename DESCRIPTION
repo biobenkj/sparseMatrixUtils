@@ -10,14 +10,15 @@ Author: Benjamin Johnson [aut, cre]
 Maintainer: Benjamin Johnson <ben.johnson@vai.org>
 URL: https://github.com/biobenkj/sparseMatrixUtils
 BugReports: https://github.com/biobenkj/sparseMatrixUtils/issues
+Encoding: UTF-8
 License: MIT + file LICENSE
 Depends:
     R (>= 3.6.0)
 Imports:
-    Matrix
+    Matrix,
     parallel
 Suggests:
     covr,
     testthat
-RoxygenNote: 6.0.0
+RoxygenNote: 6.1.1
 Roxygen: list(markdown = TRUE)
